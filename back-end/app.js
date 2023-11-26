@@ -26,7 +26,7 @@ app.use(limiter);
 
 // Database Connection
 let URI="mongodb+srv://<username>:<password>@cluster0.f0lznne.mongodb.net/student_register";
-let OPTION={user:'omarsajeeb',pass:'YsBT3drul6blKrW5',autoIndex:true};
+let OPTION={user:'',pass:'',autoIndex:true};
 mongoose.connect(URI,OPTION).then((res)=>{
     console.log("Database Connected!")
 }).catch((err)=>{
